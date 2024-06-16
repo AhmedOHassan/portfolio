@@ -96,7 +96,7 @@ a:hover {
     background-color: white;
     width: fit-content;
     max-height: 0;
-    overflow: hidden;
+    overflow: auto;
     transition: all 0.3 ease-in-out;
 }
 
@@ -320,7 +320,7 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -351,7 +351,7 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
