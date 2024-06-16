@@ -2,5 +2,5 @@
 My personal portfolio website which is built with HTML, CSS, and JS.
 
 # Missing:
-- updating the pictures.
+- Updating the pictures.
 - Adding actual projects.
