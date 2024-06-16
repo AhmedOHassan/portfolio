@@ -154,7 +154,7 @@ section {
     display: flex;
 }
 
-/* Profile Sections */
+/* Profile Section */
 #profile {
     display: flex;
     justify-content: center;
@@ -199,13 +199,13 @@ section {
     gap: 1rem;
 }
 
-/* Icons Sections */
+/* Icons Section */
 .icon {
     cursor: pointer;
     height: 2rem;
 }
 
-/* Buttons Sections */
+/* Buttons Section */
 .btn-container {
     display: flex;
     justify-content: center;
@@ -249,7 +249,7 @@ section {
     gap: 1rem;
 }
 
-/* About Me Sections */
+/* About Me Section */
 #about {
     position: relative;
 }
@@ -298,4 +298,73 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+/* Technical Skills Section */
+#technical-skills {
+    position: relative;
+}
+
+.technical-skills-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.technical-skills-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.article .icon {
+    cursor: default;
+}
+
+/* Fundamental Skills Section */
+#fundamental-skills {
+    position: relative;
+}
+
+.fundamental-skills-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.article .icon {
+    cursor: default;
 }
